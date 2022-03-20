@@ -29,7 +29,7 @@ public class TestCore {
 			driver.manage().window().maximize();
 			
 			driver.get("https://onewaveqa.techwave.net/#/quicklinks");
-			
+			Thread.sleep(1000);
 			//FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\DataDrivenProperties\\Obj.Properties");
 			 //object.load(fis);
 	}
